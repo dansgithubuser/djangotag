@@ -33,7 +33,7 @@ ALLOWED_HOSTS = [
 # Application definition
 
 INSTALLED_APPS = [
-    tag.apps.TagConfig
+    'tag.apps.TagConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
